@@ -21,8 +21,7 @@ def main():
     daily_bal = difference / cycle
     monthly = (interest_rate / 12) / 100
     interest_charge = daily_bal * monthly
-    interest_charge = str(round(interest_charge, 2))
-    print(interest_charge)
+    print(round(interest_charge, 2))
 
 if __name__ == '__main__':
     main()
