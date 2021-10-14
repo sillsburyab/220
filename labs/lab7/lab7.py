@@ -5,9 +5,11 @@ lab7.py
 """
 import math
 
+
 def cash_conversion():
     dollar = eval(input("Enter an integer: "))
     print("$" + '{:.2f}'.format(dollar))
+
 
 def encode():
     sentence = input("Enter message to be encoded: ")
@@ -25,19 +27,23 @@ def sphere_area(radius):
     area = 4 * math.pi * (radius ** 2)
     return area
 
+
 def sphere_volume(radius):
     volume = (4 / 3) * math.pi * (radius ** 3)
     return volume
 
+
 def sum_n(n):
     sum = (n *(n + 1))/ 2
     return sum
+
 
 def sum_n_cubes(n):
     acc = 0
     for i in range(n):
         acc = acc + (i ** 3)
     return acc
+
 
 def encode_better():
     sentence = input("Enter sentence: ")
