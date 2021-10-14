@@ -30,8 +30,7 @@ def sphere_volume(radius):
     return volume
 
 def sum_n(n):
-    for i in range(n):
-        sum = (n *(n + 1))/ 2
+    sum = (n *(n + 1))/ 2
     return sum
 
 def sum_n_cubes(n):
