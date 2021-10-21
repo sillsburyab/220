@@ -62,11 +62,11 @@ def send_uncrackable_message(file, friend, pad):
 
 
 def main():
-    # number_words("walrus.txt", "walrus_out.txt")
-    # hourly_wages("hourly_wages.txt", "new_wages.txt")
-    # print(calc_check_sum("0072946520"))
-    # send_message("message.txt", "jade.txt")
-    # send_safe_message("secret_message.txt", "caralyn.txt", 5)
+    number_words("walrus.txt", "walrus_out.txt")
+    hourly_wages("hourly_wages.txt", "new_wages.txt")
+    print(calc_check_sum("0072946520"))
+    send_message("message.txt", "jade.txt")
+    send_safe_message("secret_message.txt", "caralyn.txt", 5)
     send_uncrackable_message("safest_message.txt", "jordan.txt", "pad.txt")
 
 main()
