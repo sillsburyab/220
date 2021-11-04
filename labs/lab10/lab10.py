@@ -27,6 +27,7 @@ def fill_spot(board, pos, char):
         board[pos-1] = char
     display_board(board)
 
+
 def is_legal(board, pos):
     if board[pos-1] == "X" or board[pos-1] == "O":
         return False
