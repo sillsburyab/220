@@ -87,7 +87,7 @@ def main():
     add_ten([5,2,-3])
     square_each([3,5.7,2])
     sum_list([1,2,3])
-    to_numbers(["3","5.7","2"])
+    to_numbers(["3", "5.7", "2"])
     write_sum_of_squares()
     starter()
     leap_year(2010)
